@@ -1,5 +1,6 @@
 import webbrowser
 
+
 # Class to represent a movie
 # Future work:
 # May be refactored to Video if TV Shows are implemented
@@ -8,7 +9,7 @@ import webbrowser
 class Movie():
     # Four string parameters, exceptions are thrown if any are empty
     def __init__(self, title, storyline, poster_image_url, trailer_url):
-        #Error checking
+        # Error checking
         if title == "":
             raise ValueError("Movie title is empty")
         if storyline == "":
@@ -17,8 +18,8 @@ class Movie():
             raise ValueError("Poster Image URL is empty")
         if trailer_url == "":
             raise ValueError("Trailer URL is empty")
-        
-        #Set params
+
+        # Set params
         self.title = title
         self.storyline = storyline
         self.poster_image_url = poster_image_url

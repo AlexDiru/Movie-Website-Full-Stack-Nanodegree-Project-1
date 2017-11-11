@@ -4,6 +4,8 @@
 
 Source code for a Movie Trailer website. Forked from https://github.com/udacity/ud036_StarterCode
 
+PEP8 style followed, except for URLs (they make the lines too long and I'd rather not break the URLs by concatenating two strings)
+
 Changes from forked version
 - Added three movies
 - Error handling in Movie constructor
