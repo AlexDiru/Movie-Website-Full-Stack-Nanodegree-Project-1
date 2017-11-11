@@ -1,2 +1,13 @@
-# ud036_StarterCode
-Source code for a Movie Trailer website.
+# Movie Website Full Stack Nanodegree Project 1
+
+Source code for a Movie Trailer website. !(Forked project)[https://github.com/udacity/ud036_StarterCode]
+
+Changes from forked version
+-Added three movies
+-Error handling in Movie constructor
+-Style changes in fresh_tomatoes.py
+
+How to build
+-Clone repo
+-python entertainment_centre.py
+-This will create fresh_tomatoes.html and display it in a web browser
