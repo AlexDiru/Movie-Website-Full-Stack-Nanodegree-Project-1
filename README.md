@@ -4,7 +4,11 @@
 
 Source code for a Movie Trailer website. Forked from https://github.com/udacity/ud036_StarterCode
 
-PEP8 style followed, except for URLs (they make the lines too long and I'd rather not break the URLs by concatenating two strings)
+PEP8 style followed
+
+Changelog (post code review #1)
+- Added ```# noqa``` to the lines with the URLs for PEP8 compatibility
+- Added docstrings to media.py
 
 Changes from forked version
 - Added three movies
